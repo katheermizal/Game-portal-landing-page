@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { HashRouter, Switch, Route } from 'react-router-dom'
 import Home from '../../pages/Home';
 import ComingSoon from '../../pages/ComingSoon';
 import NotFound from '../../pages/NotFound';
@@ -9,7 +9,7 @@ import { Header , Footer } from '../Layout';
 class App extends Component {
   render(){
     return (
-      <BrowserRouter>
+      <HashRouter basename={process.env.PUBLIC_URL}> 
         <Header />
           <main className="App">
               <Switch>
@@ -19,7 +19,7 @@ class App extends Component {
               </Switch>
           </main>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
