@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/github.io/Game-portal-landing-page/static/css/main.db497495.chunk.css",
-    "main.js": "/github.io/Game-portal-landing-page/static/js/main.bc87bd63.chunk.js",
-    "main.js.map": "/github.io/Game-portal-landing-page/static/js/main.bc87bd63.chunk.js.map",
-    "runtime-main.js": "/github.io/Game-portal-landing-page/static/js/runtime-main.02c5c45c.js",
-    "runtime-main.js.map": "/github.io/Game-portal-landing-page/static/js/runtime-main.02c5c45c.js.map",
-    "static/css/2.e990d6bb.chunk.css": "/github.io/Game-portal-landing-page/static/css/2.e990d6bb.chunk.css",
-    "static/js/2.61be17bc.chunk.js": "/github.io/Game-portal-landing-page/static/js/2.61be17bc.chunk.js",
-    "static/js/2.61be17bc.chunk.js.map": "/github.io/Game-portal-landing-page/static/js/2.61be17bc.chunk.js.map",
-    "index.html": "/github.io/Game-portal-landing-page/index.html",
-    "static/css/2.e990d6bb.chunk.css.map": "/github.io/Game-portal-landing-page/static/css/2.e990d6bb.chunk.css.map",
-    "static/css/main.db497495.chunk.css.map": "/github.io/Game-portal-landing-page/static/css/main.db497495.chunk.css.map",
-    "static/js/2.61be17bc.chunk.js.LICENSE.txt": "/github.io/Game-portal-landing-page/static/js/2.61be17bc.chunk.js.LICENSE.txt",
-    "static/media/logo.b428ce9b.svg": "/github.io/Game-portal-landing-page/static/media/logo.b428ce9b.svg",
-    "static/media/index.scss": "/github.io/Game-portal-landing-page/static/media/sprite-2x.51ff5f18.png"
+    "main.css": "/Game-portal-landing-page/static/css/main.f7bb06b8.chunk.css",
+    "main.js": "/Game-portal-landing-page/static/js/main.bc87bd63.chunk.js",
+    "main.js.map": "/Game-portal-landing-page/static/js/main.bc87bd63.chunk.js.map",
+    "runtime-main.js": "/Game-portal-landing-page/static/js/runtime-main.c845631c.js",
+    "runtime-main.js.map": "/Game-portal-landing-page/static/js/runtime-main.c845631c.js.map",
+    "static/css/2.41428e81.chunk.css": "/Game-portal-landing-page/static/css/2.41428e81.chunk.css",
+    "static/js/2.61be17bc.chunk.js": "/Game-portal-landing-page/static/js/2.61be17bc.chunk.js",
+    "static/js/2.61be17bc.chunk.js.map": "/Game-portal-landing-page/static/js/2.61be17bc.chunk.js.map",
+    "index.html": "/Game-portal-landing-page/index.html",
+    "static/css/2.41428e81.chunk.css.map": "/Game-portal-landing-page/static/css/2.41428e81.chunk.css.map",
+    "static/css/main.f7bb06b8.chunk.css.map": "/Game-portal-landing-page/static/css/main.f7bb06b8.chunk.css.map",
+    "static/js/2.61be17bc.chunk.js.LICENSE.txt": "/Game-portal-landing-page/static/js/2.61be17bc.chunk.js.LICENSE.txt",
+    "static/media/logo.b428ce9b.svg": "/Game-portal-landing-page/static/media/logo.b428ce9b.svg",
+    "static/media/index.scss": "/Game-portal-landing-page/static/media/sprite-2x.51ff5f18.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.02c5c45c.js",
-    "static/css/2.e990d6bb.chunk.css",
+    "static/js/runtime-main.c845631c.js",
+    "static/css/2.41428e81.chunk.css",
     "static/js/2.61be17bc.chunk.js",
-    "static/css/main.db497495.chunk.css",
+    "static/css/main.f7bb06b8.chunk.css",
     "static/js/main.bc87bd63.chunk.js"
   ]
 }
