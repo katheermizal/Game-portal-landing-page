@@ -4,9 +4,9 @@
 
 ### Task Requirement
 Slice complete Landing Page.\
-Target only the Desktop view, (No need to consider about mobile view).\
-Page should be pixel perfect **!important** .\
-Some of the images are unable to export from zeplin, so Osman Yuksel asked me to use different images instead to that
+Target only the Desktop view, (No need to consider mobile view).\
+The page should be pixel perfect !important.\
+Some of the images are unable to export from Zeplin, so Osman Yuksel asked me to use different images instead for that
 
 ### Provided Resource
 [Zeplin Url](https://zpl.io/brBklYe)
@@ -25,7 +25,7 @@ Sass
 ### Developer Concerns
 Page Related all Images are updated to S3 bucket.\
 I used sprite images for Icons.\
-I pased the Datas using Json file.\
-I used Sass, I didn't use Styled components if need I can change into styled componets, but I have only the Landing page so I can't decide the variation of the component so I used Sass.\
+I passed the Data using a JSON file.\
+I used Sass, I didn't use Styled components if need I can change them into styled components, but I have only the Landing page so I can't decide the variation of the component so I used Sass.\
 
 
