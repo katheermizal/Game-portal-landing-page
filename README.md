@@ -26,6 +26,8 @@ Sass
 Page Related all Images are updated to S3 bucket.\
 I used sprite images for Icons.\
 I passed the Data using a JSON file.\
-I used Sass, I didn't use Styled components if need I can change them into styled components, but I have only the Landing page so I can't decide the variation of the component so I used Sass.\
+I used Sass.\
+The site is pixel perfect.\
+The desktop view is working fine.\
 
 
