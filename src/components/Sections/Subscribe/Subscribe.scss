@@ -1,0 +1,15 @@
+.section__subscribe {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: $ViolentViolet;
+    padding: 45px 0 39px;
+
+    .container {
+        @extend %flex-equal-space;
+        @extend %align-items-center;
+    }
+
+    h2 {
+        margin: 0;
+    }
+}

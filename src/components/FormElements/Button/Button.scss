@@ -1,0 +1,12 @@
+.button__primary {
+    padding: 14px;
+    line-height: 1;
+    letter-spacing: -0.4px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    @extend %font-size-16px;
+    @extend %font-weight-medium;
+    @extend %box-shadow-none;
+    @extend %g-button-fill;
+}

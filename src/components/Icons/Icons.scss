@@ -1,0 +1,214 @@
+.icon {
+    &-user,
+    &-chanels,
+    &-cart,
+    &-wishlisht,
+    &-notification,
+    &-search,
+    &-applestore,
+    &-playstore,
+    &-wishlisht-large,
+    &-comments,
+    &-likes,
+    &-repost,
+    &-upload,
+    &-follow {
+        @extend %stripe-image;
+    }
+
+    &-user,
+    &-chanels,
+    &-cart,
+    &-wishlisht,
+    &-notification,
+    &-wishlisht-large,
+    &-likes,
+    &-repost,
+    &-upload {
+        @extend %transition-3s;
+    }
+} 
+
+
+.icon {
+    &-likes,
+    &-repost,
+    &-upload {
+        width: 31px;
+        height: 30px;
+    }
+
+    &-wishlisht-large,
+    &-follow {
+        width: 27px;
+        height: 24px;
+    }
+
+    &-user {
+        width: 20px;
+        height: 21px;
+        background-position: 0px 0px;
+    }
+
+    &-chanels {
+        width: 22px;
+        height: 22px;
+        background-position: -22.5px 0px;
+    }
+
+    &-cart {
+        width: 24px;
+        height: 21px;
+        background-position: -47px 0px;
+    }
+
+    &-wishlisht {
+        width: 23px;
+        height: 21px;
+        background-position: -73.5px 0px;
+    }
+
+    &-notification {
+        width: 19px;
+        height: 21px;
+        background-position: -99px 0px;
+
+        &.active {
+            position: relative;
+
+            &:after {
+                content: '';
+                width: 8px;
+                height: 8px;
+                display: block;
+                position: absolute;
+                right: 0;
+                @include border-radius(50%);
+                border: solid 1.5px $BlackRussianLightLighten;
+                background-color: $DodgerBlue;
+            }
+        }
+    }
+
+    &-search {
+        width: 22px;
+        height: 22px;
+        background-position: -120.5px 0px;
+    }
+
+    &-applestore {
+        width: 23px;
+        height: 28px;
+        background-position: -146px 0px;
+    }
+
+    &-playstore {
+        width: 25px;
+        height: 24px;
+        background-position: -168.5px 0px;
+    }
+
+    &-wishlisht-large {
+        background-position: -192.5px 0px;
+    }
+
+    &-comments {
+        width: 16px;
+        height: 15px;
+        background-position: -222px 0px;        
+    }
+
+    &-likes {
+        background-position: -241px 0px; 
+    }
+
+    &-repost {
+        background-position: -273.5px 0px;
+    }
+
+    &-upload {
+        background-position: -306px 0px;
+    }
+
+    &-follow {
+        background-position: -338px 0px;
+    }
+} 
+
+.button__icon {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    @extend %box-shadow-none;
+}
+
+.link__icon {
+    @extend %g-link;
+}
+
+.button__icon,
+.link__icon {
+    * { text-decoration: none; }
+
+    &:hover {
+        .icon {
+            &-user {
+                background-position: 0px -26px;
+            }
+        
+            &-chanels {
+                background-position: -22.5px -26px;
+            }
+        
+            &-cart {
+                background-position: -47px -26px;
+            }
+        
+            &-wishlisht {
+                background-position: -73.5px -26px;
+            }
+        
+            &-notification {
+                background-position: -99px -26px;
+            }
+        
+            &-search {
+                background-position: -120.5px -26px;
+            }
+        
+            &-applestore {
+                background-position: -146px -30px;
+            }
+        
+            &-playstore {
+                background-position: -168.5px -26px;
+            }
+        
+            &-wishlisht-large {
+                background-position: -192.5px -26px;
+            }
+        
+            &-comments {
+                background-position: -222px -18px;        
+            }
+        
+            &-likes {
+                background-position: -241px -33px; 
+            }
+        
+            &-repost {
+                background-position: -273.5px -33px;
+            }
+        
+            &-upload {
+                background-position: -306px -33px;
+            }
+        
+            &-follow {
+                background-position: -338px -26px;
+            }
+        } 
+    }
+}

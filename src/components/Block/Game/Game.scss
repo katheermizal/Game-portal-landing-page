@@ -1,0 +1,78 @@
+.game {
+    width: 192px;
+    margin: 0 0 20px;
+
+    &__image {
+        height: 257px;
+        position: relative;
+        margin: 0 0 14px;
+        @include border-radius(12px);
+        @include box-shadow(0 1px 4px 0 $BlackLighten80);
+        background-color: $BlackLighten10;
+        overflow: hidden;
+        @extend %display-flex;
+        @extend %full-width; 
+        
+        img {
+            align-items: stretch;
+            height: 100%;
+            @extend %full-width; 
+        }
+
+        .link__icon {
+            position: absolute;
+            top: 11px;
+            right: -30px;
+        }
+    }
+
+    &__details {
+        > a {
+            margin: 0 0 12px;
+        }
+
+        h4 {
+            letter-spacing: -0.54px;
+        }
+
+        .price {
+            margin: 0 0 3px;
+            padding-left: 1px;
+            line-height: 1.2;
+            color: $lavenderLighten60;
+            @extend %font-size-16px;
+            @extend %font-weight-medium;
+        }
+
+        .price__actual,
+        .discount {
+            line-height: 1.48;
+            @extend %font-size-13px;
+        }
+
+        .price__actual {
+            margin-right: 8px;
+            margin-left: 2px;
+            color: $lavenderLighten40;
+            text-decoration: line-through;
+        }
+
+        .discount {
+            font-weight: $bold;
+            letter-spacing: -0.9px;
+            color: $BlueViolet;
+        }
+    }
+
+    &__preorder {
+        margin-top: 10px;
+    }
+
+    &__wrapper {
+        &:hover {
+            .link__icon {
+                right: 13px;
+            }
+        }
+    }
+}

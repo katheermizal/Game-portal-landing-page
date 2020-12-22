@@ -1,0 +1,26 @@
+.image-card {
+    @extend %display-flex;
+    @extend %align-items-center;
+
+    &__image {
+        width: 48px;
+        height: 48px;
+        background-color: $BlackRussianDarker20;
+        overflow: hidden;
+        opacity: 1;
+        @extend %transition-4s;
+        @extend %border-radius-10px;
+        
+        img {
+            @extend %full-width;
+        }
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+    &__details {
+        width: calc(100% - 50px);
+    }
+}

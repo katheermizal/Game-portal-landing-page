@@ -1,0 +1,197 @@
+/************************************
+ * Extends for commonly used border-radius
+ ************************************/
+%border-radius-5px {
+    @include border-radius(5px);
+}
+
+%border-radius-10px {
+    @include border-radius(10px);
+}
+
+
+/************************************
+ * Extends for commonly used transitions
+ ************************************/
+%transition-3s {
+    @include transition(0.3s ease all);
+}
+
+%transition-4s {
+    @include transition(0.4s ease all);
+}
+
+/************************************
+ * Extends for remove box-shadow
+ ************************************/
+%box-shadow-none {
+    @include box-shadow(none);
+}
+
+
+/************************************
+ * Extends for reset ul , ol
+ ************************************/
+%list-style-reset {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+/************************************
+ * Extends for flexbox highluy used properties
+ ************************************/
+%display-flex {
+    display: flex; 
+}
+
+%flex-equal-space {
+    justify-content: space-between;
+}
+
+%align-items-center {
+    align-items: center;
+}
+
+
+/************************************
+ * Extends for full width
+ ************************************/
+%full-width {
+    width: 100%;
+}
+
+
+/************************************
+ * Extends for font sizes
+ ************************************/
+%font-size-12px { font-size: 12px; }
+
+%font-size-13px { font-size: 13px; }
+
+%font-size-14px { font-size: 14px; }
+
+%font-size-15px { font-size: 15px; }
+
+%font-size-16px { font-size: 16px; }
+
+
+/************************************
+ * Extends for font weights
+ ************************************/
+ %font-weight-bold { font-weight: $bold; }
+
+ %font-weight-medium { font-weight: $medium; }
+ 
+ %font-weight-regular { font-weight: $regular; }
+
+/************************************
+ * Extends classes for link
+ ************************************/
+%g-link {
+    display: inline-block;
+    @extend %transition-3s;
+
+    &:not(.link__readmore) {
+        text-decoration: none;
+    }
+
+    > * {
+        margin: 0;
+        font-size: inherit;
+        line-height: inherit;
+        @extend %transition-3s;
+    }
+}
+
+
+/************************************
+ * Extends classes for buttons 
+ ************************************/
+%g-button {
+    text-align: center;
+    @extend %font-weight-medium;
+    @extend %border-radius-5px;
+    @extend %box-shadow-none;
+}
+
+%g-button-border {
+    padding: 7px;
+    color: $DodgerBluDark;
+    border: 1px solid $DodgerBluDark;
+    background-color: transparent;
+    @extend %g-button;  
+    
+    &:hover {
+        color: $SelectiveYellow;
+        border: 1px solid $SelectiveYellow;
+    }
+}
+
+%g-button-fill {
+    color: $white;
+    border: none;
+    background-color: $DodgerBluDark;
+    @extend %g-button;  
+
+    &:hover {
+        background-color: $SelectiveYellow;
+    }
+}
+
+
+/************************************
+ * Extends for background images
+ ************************************/
+
+%stripe-image,
+%email-image  {
+    background-repeat: no-repeat;
+}
+
+%stripe-image {
+    background-image: url(./../images/sprite-2x.png);
+    background-size: auto 63px;
+    display: inline-block;
+}
+
+%email-image {
+    background-image: url(./../images/email.png);
+}
+
+
+/************************************
+ * Extends for blocks common styles
+ ************************************/
+%block-common {
+    margin: 0 0 12px;
+    .image-card {
+        &__details {
+            a {
+                @extend %display-flex; 
+                @extend %full-width;
+            }
+        }
+    }
+}
+
+
+/************************************
+ * Extends for blocks list common styles
+ ************************************/
+%block-list-common {
+    h3 {
+        margin: 0 0 16px;
+        position: relative;
+        
+        &:after {
+           content: '';
+           height: 1px;
+           display: block;
+           margin-top: 18px;
+           background: linear-gradient(to bottom, #0d0d0e 0%, #121214 100%); 
+           @extend %full-width;
+        }
+    }
+}

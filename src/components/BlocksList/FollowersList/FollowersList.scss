@@ -1,0 +1,8 @@
+.followers__list {
+    width: 235px;
+    @extend %block-list-common;
+
+    &--link {
+        margin-top: 12px;
+    }
+}

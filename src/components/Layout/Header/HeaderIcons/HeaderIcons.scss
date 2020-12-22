@@ -1,0 +1,27 @@
+
+.header {
+    &__icons,
+    &__icons--left,
+    &__icons--right {
+        @extend %display-flex;
+    }
+
+    &__icons {
+        &--left,
+        &--right {
+            @extend %align-items-center;
+            @extend %flex-equal-space;
+        }
+
+        &--left {
+            width: 109px;
+            padding-right: 29px;
+            border-right: 1px solid $BlackLighten;
+        }
+
+        &--right {
+            width: 165px;
+            padding-left: 30px;
+        }
+    }
+}

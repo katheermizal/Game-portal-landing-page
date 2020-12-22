@@ -1,0 +1,18 @@
+.games {
+    &__list,
+    &__more {
+        @extend %full-width; 
+    }
+
+    &__list {
+        padding-top: 9px;
+        flex-flow: row wrap;
+        @extend %display-flex;
+        @extend %flex-equal-space;
+    }   
+
+    &__more {
+        padding: 10px 0;
+        text-align: center;
+    }  
+}

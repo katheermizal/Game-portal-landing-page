@@ -1,0 +1,14 @@
+.payment-icons {
+    height: 31px;
+    margin-top: 2px;
+    @extend %display-flex;
+    @extend %align-items-center;
+
+    &__master-card {
+        margin-left: 25px;
+    }
+
+    &__paypal {
+        margin-left: 15px; 
+    }
+ }

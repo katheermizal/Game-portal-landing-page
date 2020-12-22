@@ -1,0 +1,9 @@
+.channels__list {
+    width: 267px;
+    padding-left: 8px;
+    @extend %block-list-common;
+    
+    &--link {
+        margin-top: 14px;
+    }
+}

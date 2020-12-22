@@ -1,0 +1,18 @@
+.follower {
+    width: 218px;
+    @extend %block-common;
+    @extend %display-flex; 
+    @extend %flex-equal-space;
+    
+    .image-card {
+        width: calc(100% - 30px);
+
+        &__details  {
+            padding-left: 14px;
+        }
+    }
+
+    .link__icon {
+        padding-top: 9px;
+    }
+}

@@ -1,0 +1,350 @@
+{
+	"MainMenu": [
+	  {
+		"title": "Home",
+		"class": "home",
+		"iconUrl": "https://pwa-gaming.s3.amazonaws.com/menu-icons/home.png",
+		"path": "/"
+	  },
+	  {
+		"title": "Social",
+		"class": "social",
+		"iconUrl": "https://pwa-gaming.s3.amazonaws.com/menu-icons/social.png",
+		"path": "/social"
+	  },
+	  {
+		"title": "Market",
+		"class": "market",
+		"iconUrl": "https://pwa-gaming.s3.amazonaws.com/menu-icons/tournements.png",
+		"path": "/market"
+	  },
+	  {
+		"title": "Tournements",
+		"class": "tournements",
+		"iconUrl": "https://pwa-gaming.s3.amazonaws.com/menu-icons/market.png",
+		"path": "/tournements"
+	  }
+	],
+	"MainSlider": [
+		{
+			"title": "Become a legendary Viking warrior raised on tales of battle and glory.",
+			"imageUrl": "https://pwa-gaming.s3.amazonaws.com/slider-images/slide-assasians.png"
+		},
+		{
+			"title": "Become a legendary Viking warrior raised on tales of battle and glory.",
+			"imageUrl": "https://pwa-gaming.s3.amazonaws.com/slider-images/slide-ghost.png"
+		},
+		{
+			"title": "Become a legendary Viking warrior raised on tales of battle and glory.",
+			"imageUrl": "https://pwa-gaming.s3.amazonaws.com/slider-images/the-last.png"
+		},
+		{
+			"title": "Become a legendary Viking warrior raised on tales of battle and glory.",
+			"imageUrl": "https://pwa-gaming.s3.amazonaws.com/slider-images/the-last.png"
+		}
+	],
+	"LatestPosts": [
+		{
+			"sectionTitle": "Latest posts",
+			"items": [
+				{
+					"title": "MrPaladin",					
+					"content": "Sniper isnt overpowered.<br/> Sniper has some of the lowest damage outputs in the game. 50 damage per shot is terrible, especially with the fire rate.<br/>Compared to heavy, who has 400+ DPS!..<a class='link__readmore' href='/'> Read More</a><br>",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/latest-posts/post-a.png",
+					"lastUpdateDate": "3hrs ago",
+					"postLikes": "296",
+					"postCommentsCount": 15,
+					"profileName": "@mrpaladin",
+					"proFileURL": "#",
+					"profileTypePro": false,
+					"followersCount": 15
+				},
+				{
+					"title": "LeroyJenkins",					
+					"content": "It'll still be long enough that it cannot be spammed. But will increase usefulness of the watch by not..<br>",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/latest-posts/post-b.png",
+					"lastUpdateDate": "15mins ago",
+					"postLikes": null,
+					"postCommentsCount": null,
+					"profileName": "@leroyjenkins",
+					"proFileURL": "#",
+					"profileTypePro": true,
+					"followersCount": 3253
+				},
+				{
+					"title": "ONYXSnake1223",					
+					"content": "If you've not yet played CS:GO, do yourself a favor and play first. Excellent game, and this one ties in heavily with the story from the last.. <br/><br/>",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/latest-posts/post-c.png",
+					"lastUpdateDate": "15mins ago",
+					"postLikes": "1.2k",
+					"postCommentsCount": 156,
+					"profileName": "@ONYXSnake1223",
+					"proFileURL": "#",
+					"profileTypePro": true,
+					"followersCount": 125
+				}		
+			]				
+		}
+	],
+	"Chanels": [
+		{
+			"sectionTitle": "Channels",
+			"linkName": "Find more",
+			"items": [
+				{
+					"name": "#social Hub",					
+					"users": "195K",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/chanels/chanel-a.png"
+				},
+				{
+					"name": "#Fornite",					
+					"users": "240k",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/chanels/chanel-b.png"
+				},
+				{
+					"name": "#World of War Craft",					
+					"users": "195K",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/chanels/chanel-a.png"
+				},
+				{
+					"name": "#PUBG Mobile",					
+					"users": "220k",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/chanels/chanel-d.png"
+				},
+				{
+					"name": "#HearthStone",					
+					"users": "175K",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/chanels/chanel-e.png"
+				},
+				{
+					"name": "#CS: GO",					
+					"users": "194K",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/chanels/chanel-f.png"
+				},
+				{
+					"name": "#Call of Duty",					
+					"users": "175K",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/chanels/chanel-g.png"
+				},
+				{
+					"name": "#Overwatch",					
+					"users": "200K",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/chanels/chanel-h.png"
+				},
+				{
+					"name": "#Diablo III",					
+					"users": "175K",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/chanels/chanel-1.png"
+				}
+						
+			]				
+		}
+	],
+	"FollowersLists": [
+		{
+			"sectionTitle": "Who to follow?",
+			"linkName": "Discover All",
+			"followers": [
+				{
+					"name": "XMegatronX",					
+					"followersCount": "325.860",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/followers/follower-a.png"
+				},
+				{
+					"name": "Rikimarue",					
+					"followersCount": "285.020",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/followers/follower-b.png"
+				},
+				{
+					"name": "Wolfie",					
+					"followersCount": "433.642",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/followers/follower-c.png"
+				},
+				{
+					"name": "Thanon",					
+					"followersCount": "312.245",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/followers/follower-d.png"
+				},
+				{
+					"name": "Rikimarue",					
+					"followersCount": "285.020",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/followers/follower-b.png"
+				},
+				{
+					"name": "MrPaladin",					
+					"followersCount": "433.642",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/followers/follower-e.png"
+				},
+				{
+					"name": "Supreme",					
+					"followersCount": "312.245",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/followers/follower-d.png"
+				},
+				{
+					"name": "Murmur",					
+					"followersCount": "312.245",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/followers/follower-f.png"
+				},
+				{
+					"name": "Loremiosum",					
+					"followersCount": "312.245",
+					"url": "#",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/followers/follower-g.png"
+				}		
+			]				
+		}
+	],
+	"UpcomingGames": [
+		{
+			"sectionTitle": "Upcoming Games",
+			"sectionNote": "Pre-order an upcoming game to start playing on Day 1.",
+			"loadMoreLinkName": "LOAD MORE",
+			"games": [
+				{
+					"title": "World of Warcraft: <br/>Shadowlands (Heroic Edition)",	
+					"url": "#",
+					"actualPrice": "22.50",
+					"discountValue": "62",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/upcoming-games/world-of-warcraft.jpg"
+				},
+				{
+					"title": "Biomutant Steam Key ARABIC",	
+					"url": "#",
+					"actualPrice": "54.49",
+					"discountValue": "34",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/upcoming-games/need-for-speed-heat.jpg"
+				},
+				{
+					"title": "Watch Dogs: Legion <br/>Uplay Key",	
+					"url": "#",
+					"actualPrice": "37.99",
+					"discountValue": "20",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/upcoming-games/watch-dogs.jpg"
+				},
+				{
+					"title": "Vampire: The Masquerade - <br/>Bloodlines 2 Steam Key",	
+					"url": "#",
+					"actualPrice": "4.36",
+					"discountValue": "15",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/upcoming-games/vampire-the-masterguard.jpg"
+				},
+				{
+					"title": "Football Manager 2021 <br/>Steam Key",	
+					"url": "#",
+					"actualPrice": "41.79",
+					"discountValue": "5",
+					"imageUrl": "https://pwa-gaming.s3.amazonaws.com/upcoming-games/foot-ball.jpeg"
+				}		
+			]				
+		}
+	],
+	"FooterLinks": [
+		{
+			"name": "LA3EB",
+			"subLinks": [
+				{
+					"name": "About Us",
+					"url": "#"
+				},
+				{
+					"name": "Careers",
+					"url": "#"
+				},
+				{
+					"name": "Newsroom",
+					"url": "#"
+				},
+				{
+					"name": "Contact",
+					"url": "#"
+				}
+			]
+		},
+		{
+			"name": "HELP",
+			"subLinks": [
+				{
+					"name": "Support Hub",
+					"url": "#"
+				},
+				{
+					"name": "How to activate Games",
+					"url": "#"
+				},
+				{
+					"name": "Terms & Conditions",
+					"url": "#"
+				},
+				{
+					"name": "Privacy & Cookies",
+					"url": "#"
+				},
+				{
+					"name": "Returns & Refunds",
+					"url": "#"
+				}
+			]
+		},
+		{
+			"name": "BUSINESS",
+			"subLinks": [
+				{
+					"name": "Business Center",
+					"url": "#"
+				},
+				{
+					"name": "Selling on  La3eb",
+					"url": "#"
+				},
+				{
+					"name": "Developer & Publisher",
+					"url": "#"
+				},
+				{
+					"name": "Marketing Partnership",
+					"url": "#"
+				}
+			]
+		}     
+	],
+	"paymentIcons": [
+		{
+			"name": "Visa",
+			"iconUrl": "https://pwa-gaming.s3.amazonaws.com/payment-iIcons/visa.png",
+			"iconHeight": "18px",
+			"iconClass": "visa"
+		},
+		{
+			"name": "Master Card",
+			"iconUrl": "https://pwa-gaming.s3.amazonaws.com/payment-iIcons/master-card.png",
+			"iconHeight": "31px",
+			"iconClass": "master-card"
+		},
+		{
+			"name": "Paypal",
+			"iconUrl": "https://pwa-gaming.s3.amazonaws.com/payment-iIcons/paypal.png",
+			"iconHeight": "20px",
+			"iconClass": "paypal"
+		}
+	]  
+}

@@ -1,0 +1,28 @@
+.section__titile {
+    align-items: baseline;
+    padding: 18px 0 6px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px rgba(151, 151, 151, 0.2);
+    @extend %full-width; 
+    @extend %display-flex;
+    
+     &--heading {
+         width: calc(100% - 97px);
+         @extend %display-flex;
+         @extend %align-items-center;
+ 
+         h2 {
+             margin: 0;
+         }
+ 
+         span {
+             margin: -2px 0 0 39px;
+             opacity: 0.5;
+         }
+    }
+
+    .link__border-button--small {
+        position: relative;
+        top: -11px;
+    }
+ } 

@@ -1,0 +1,71 @@
+.post {
+    padding: 15px 13px 10px 18px;
+    margin-bottom: 15px;
+    background-color: $Jaguar;
+    @extend %border-radius-10px;
+
+    &__top {
+       margin-bottom: 13px; 
+    }
+
+    &__card {
+        &--top {
+            display: inline-block;
+            @extend %full-width;
+
+            img {
+                width: 28px;
+                margin-left: 5px;
+            }
+
+            span {
+                float: right;
+                margin-top: -1px;
+                margin-right: -1px;
+            }
+        }
+
+        &--bottom {
+            a {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .image-card__details {
+        padding-left: 16px;
+    }
+
+
+    &__middle {
+        margin-bottom: 16px;
+
+        > * {
+            line-height: 18px;
+        }
+    }
+
+    &__bottom ,
+    &__bottom--left,
+    &__bottom--right {
+        @extend %display-flex;
+        @extend %align-items-center;
+    }
+
+    &__bottom {
+        @extend %full-width; 
+        @extend %flex-equal-space;
+    }
+
+    &__bottom--left {
+        a {
+            margin-right: 11px;
+        }
+    }
+
+    &__bottom--right {
+        a {
+            margin-right: 9px;
+        }
+    }
+}
