@@ -5,7 +5,7 @@
 ### Task Requirement
 Slice complete Landing Page.\
 Target only the Desktop view, (No need to consider about mobile view).\
-Page should be pixel perfect.\
+Page should be pixel perfect **!important** .\
 Some of the images are unable to export from zeplin, so Osman Yuksel asked me to use different images instead to that
 
 ### Provided Resource
@@ -19,5 +19,13 @@ Sass
 
 ### Available Scripts
 `npm start` Runs the app in the development mode.\
-`npm run build` Runs the app in the development mode.
+`npm run build` Runs the app in the development mode.\
 `npm run eject` If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time.
+
+### Developer Concerns
+Page Related all Images are updated to S3 bucket.\
+I used sprite images for Icons.\
+I pased the Datas using Json file.\
+I used Sass, I didn't use Styled components if need I can change into styled componets, but I have only the Landing page so I can't decide the variation of the component so I used Sass.\
+
+
